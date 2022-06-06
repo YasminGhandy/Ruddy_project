@@ -1,0 +1,299 @@
+main {
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-style: italic;
+}
+
+/**************************** header section **************************/
+#header {
+    min-height: 90vh;
+    background: url("../images/bg.jpg") no-repeat top/cover;
+}
+
+/************************ Navbar *************************/
+#header .navbar .inner-div {
+    background-color: #2DA88C;
+}
+
+#header .navbar .inner-div ul li:last-of-type a {
+    background-color: #F98A68;
+}
+
+/**************************** header Body section **************************/
+.content-div {
+    margin-top: 586px !important;
+}
+
+.header-item {
+    height: 200px;
+    background-color: #2da88b75;
+}
+
+.header-item:hover {
+    background-color: #f98a6875;
+}
+.header-item.active{
+    background-color: #f98a6875;
+}
+
+/**************************** Icons section **************************/
+.icons-div {
+    min-height: 400px;
+}
+
+.icons-div h3 {
+    color: #f35728;
+}
+
+/**************************** About section **************************/
+#about {
+    min-height: 80vh;
+}
+
+.about-img img {
+    min-height: 368px;
+}
+
+.about-txt1 {
+    background-color: #2da88b;
+    box-sizing: border-box;
+    min-height: 368px;
+}
+
+.about-txt1 p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.about-txt2 {
+    background-color: #f35728;
+    box-sizing: border-box;
+    min-height: 368px;
+}
+
+.about-txt2 p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+/**************************** Our Process section **************************/
+#process {
+    min-height: 550px;
+    background: url("../images/process-bg.jpg") no-repeat top/cover;
+}
+
+.process1 {
+    height: 290px;
+    background: url("../images/p-bg1.jpg") no-repeat top/cover;
+}
+
+.process1 img {
+    margin: 70px auto 15px;
+    margin-left: 19px;
+
+}
+
+.process2 {
+    height: 290px;
+    background: url("../images/p-bg2.jpg") no-repeat top/cover;
+}
+
+.process2 img {
+    margin: 70px auto 15px;
+}
+
+.process3 {
+    height: 290px;
+    background: url("../images/p-bg3.jpg") no-repeat top/cover;
+}
+
+.process3 img {
+    margin: 70px auto 15px;
+}
+
+.process4 {
+    height: 290px;
+    background: url("../images/p-bg4.jpg") no-repeat top/cover;
+}
+
+.process4 img {
+    margin: 70px auto 15px;
+    margin-right: 27px;
+}
+
+/**************************** Our Blog section **************************/
+#blog {
+    min-height: 1000px;
+}
+#blog .card{
+    border-radius: 0;
+}
+#blog .card img{
+    border-radius: 0;
+}
+#blog .card-body{
+    background-color: #dadada;
+    color: #6c757d;
+}
+#blog .card-body h4{
+    color: #757474;
+}
+
+.bi-heart {
+    color: #f35728;
+}
+
+.bi-chat-left-dots {
+    color: #2da88b;
+}
+
+.last-card {
+    height: 800px;
+}
+.last-card img {
+    height: 78%;
+}
+
+.last-card .card-body {
+    height: 22%;
+}
+
+/**************************** Portifolio section **************************/
+
+.btn1{
+    width:100px;
+    border: 1px solid #f35728;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: #f35728;
+    border: 1px solid #f35728;
+    color: #fff;
+}
+.btn2{
+    width:200px;
+    border: 1px solid #f3c428;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn2:hover{
+    background-color: #f3c428;
+    border: 1px solid #f3c428;
+    color: #fff;
+}
+.btn3{
+    width:200px;
+    border: 1px solid #1d8d73;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn3:hover{
+    background-color: #1d8d73;
+    border: 1px solid #1d8d73;
+    color: #fff;
+}
+.btn4{
+    width:200px;
+    border: 1px solid #116451;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn4:hover{
+    background-color: #116451;
+    border: 1px solid #116451;
+    color: #fff;
+}
+.btn5{
+    width:250px;
+    border: 1px solid #018f6b;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn5:hover{
+    background-color: #018f6b;
+    border: 1px solid #018f6b;
+    color: #fff;
+}
+
+/**************************** Work section **************************/
+#work{
+    background-color: #f35728;
+    min-height: 300px;
+    box-sizing: border-box;
+}
+#work h1{
+    font-style: normal
+}
+#work p{
+    font-size: 1.6rem;
+    color: #d4d3d3;
+}
+#work .work-btn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #d4d3d3;
+    border-radius: 0;
+    color: #dadada;
+    margin-top: 20px;
+}
+#work .work-btn:hover{
+    background-color: #d4d3d3;
+    border: 2px solid #d4d3d3;
+    color: #000;
+}
+
+/**************************** Our Team section **************************/
+#team{
+    min-height: 450px;
+}
+/**************************** location section **************************/
+#location{
+    min-height:455px ;
+    box-sizing: border-box;
+}
+.contact{
+    background-color: #f35728;
+}
+#location .contact .location-div{
+    margin-top: 100px !important;
+    box-sizing: border-box;
+}
+
+/**************************** location section **************************/
+#footer{
+    min-height: 200px;
+    background-color: #474747;
+}
+#footer .logo{
+margin: 100px !important;
+}
+#footer .btn-div{
+margin: 100px !important;
+}
+.work-btn2{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.work-btn2:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+}
+#footer .row  div{
+    margin: auto;
+}
+#footer a{
+    width: 28px;
+    height: 28px;
+    margin-left: 45%;
+}
+
